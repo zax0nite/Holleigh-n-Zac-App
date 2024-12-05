@@ -33,7 +33,7 @@ st.set_page_config(page_title="Holleigh & Zac's Special App", page_icon="💖")
 st.title("Holleigh & Zac's Special App 💕")
 
 # Toggle for who is using the app
-author = st.radio("Show messages from:", ["Holleigh", "Zac"])
+author = st.radio("Who is using the app?", ["Holleigh", "Zac"])
 
 # Button to display a new random message
 if st.button("Show New Message"):
